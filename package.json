@@ -1,0 +1,21 @@
+{
+  "name": "chatgpt-feishu-desktop-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "probe": "node src/cli.mjs probe",
+    "check": "node src/service.mjs --check",
+    "start": "node src/service.mjs --live",
+    "test": "node --test test/*.test.mjs",
+    "check:public": "node scripts/check-public.mjs"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "1.74.0"
+  },
+  "description": "Private Feishu messaging bridge for existing ChatGPT desktop conversations using the bundled App Tools MCP",
+  "license": "UNLICENSED"
+}

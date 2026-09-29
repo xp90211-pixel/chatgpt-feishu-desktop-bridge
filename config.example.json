@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "expectedBotAppId": "cli_REPLACE_WITH_YOUR_APP_ID",
+  "stateDirectory": "runtime/service",
+  "pollIntervalMs": 5000,
+  "bindings": [
+    {
+      "id": "personal",
+      "chatgptThreadId": "REPLACE_WITH_EXISTING_CHATGPT_ID",
+      "chatgptTitle": "示例对话",
+      "feishuChatId": "oc_REPLACE_WITH_YOUR_PRIVATE_CHAT_ID",
+      "allowedOpenIds": ["ou_REPLACE_WITH_YOUR_OPEN_ID"]
+    }
+  ]
+}
